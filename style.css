@@ -1,0 +1,78 @@
+
+.content {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: ;
+  }
+  .side-bar-title {
+      
+      
+      
+  }
+  
+  
+  
+  .side-bar {
+   flex: 1.5;
+    /* width: 20%; */
+    height:100vh;
+    
+    overflow-y: scroll;
+    margin-top: 0px;
+    padding-right: 20px;
+   
+  
+  }
+  
+  .main {
+    margin: 0 0 0 0;
+    padding: 0 30px;
+    overflow-y: scroll;
+  /* width: 90%; */
+  flex: 4;  
+  
+    height:100vh;
+   
+  }
+  @media (max-width: 900px) {
+      .content {
+         flex-direction: column;
+         height: 100vh;
+      }
+      .side-bar {
+          height: 90px;
+          overflow: auto;
+      }
+      .main {
+          height: 60%;
+          overflow-y: visible;
+      }
+  }
+  .side-bar ul {
+      list-style-type: none;
+      padding: 0;
+
+  }
+  .side-bar li {
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+     
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      
+  }
+  .side-bar a {
+    text-decoration: none;
+    color: black;
+  }
+  .introduction ul, .function-declarations ul {
+      list-style-position: inside;
+  }
+  .introduction li, .already-know li, .while-statement li, .function-declarations li {
+      margin: 10px;
+  }
+  pre {
+      background-color: #F7F7F7;
+  }
